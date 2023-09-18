@@ -14,12 +14,12 @@ export default function Navbar() {
         <div className="flex justify-between">
           <div className={` flex cursor-pointer ${p}`}>
             {" "}
-            <Link className="flex" href={"/"}>
+            <Link className=" font-bold flex" href={"/"}>
               <Image src={"/faucet.png"} width={"30"} height={"30"} />
               <div className="ml-3">Edified Landscaping</div>{" "}
             </Link>
           </div>
-          <div className="flex">
+          <div className=" font-bold flex">
             <Link href={"/"}>
               {" "}
               <div className={`${p}`}>Home</div>{" "}
