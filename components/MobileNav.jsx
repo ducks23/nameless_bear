@@ -60,7 +60,9 @@ export default function MobileNav() {
             <div className={`${p}`}>services</div>
             <Divider />
             <Link href={"/contact"}>
-              <div className={`${p}`}>Contact</div>
+              <div className={`${p}`} onClick={onClose}>
+                Contact
+              </div>
             </Link>{" "}
           </DrawerBody>
 
