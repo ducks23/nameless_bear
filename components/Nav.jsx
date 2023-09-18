@@ -1,10 +1,16 @@
 import Link from "next/link";
 import Image from "next/image";
+
+import MobileNav from "./MobileNav";
+
 export default function Navbar() {
   const p = " p-4 cursor-pointer hover:underline hover:underline-offset-4 ";
   return (
     <div className=" z-2000 bg-gray-300 shadow-md ">
-      <nav className=" max-w-4xl  mx-auto">
+      <nav class="bg-gray-300 p-4 block md:hidden">
+        <MobileNav />
+      </nav>
+      <nav className=" max-w-4xl  mx-auto hidden md:block">
         <div className="flex justify-between">
           <div className={` flex cursor-pointer ${p}`}>
             {" "}
