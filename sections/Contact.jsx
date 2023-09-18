@@ -22,9 +22,8 @@ const Page = () => (
         <div className=" text-blue-400 flex justify-center flex-col">
           <div className="md:pt-8 pt-4 px-5 ">
             <div className="flex p-4 justify-center md:pt-10 ">
-              <div className="text-xl my-auto max-w-xl px-12">
-                The preferred way of reaching out is over text please provide
-                your name and the services you are looking to receive from us.
+              <div className="text-xl my-auto text-red-500 max-w-xl px-12">
+                Easiest way to get in contact: TEXT
               </div>
             </div>
             <div className="flex p-4 justify-center">

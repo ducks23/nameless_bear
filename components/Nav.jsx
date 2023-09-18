@@ -18,7 +18,9 @@ export default function Navbar() {
               {" "}
               <div className={`${p}`}>Home</div>{" "}
             </Link>
-            <div className={`${p}`}>about</div>
+            <Link href={"/about"}>
+              <div className={`${p}`}>About</div>
+            </Link>{" "}
             <div className={`${p}`}>services</div>
             <Link href={"/contact"}>
               <div className={`${p}`}>Contact</div>
