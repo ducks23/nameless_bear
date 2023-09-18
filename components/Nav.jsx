@@ -16,7 +16,7 @@ export default function Navbar() {
             {" "}
             <Link className="flex" href={"/"}>
               <Image src={"/faucet.png"} width={"30"} height={"30"} />
-              <div className="ml-3">Edifying Landscaping</div>{" "}
+              <div className="ml-3">Edified Landscaping</div>{" "}
             </Link>
           </div>
           <div className="flex">

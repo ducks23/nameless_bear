@@ -33,7 +33,7 @@ export default function MobileNav() {
         {" "}
         <Link className="flex" href={"/"}>
           <Image src={"/faucet.png"} width={"30"} height={"30"} />
-          <div className="ml-3">Edifying Landscaping</div>{" "}
+          <div className="ml-3">Edified Landscaping</div>{" "}
         </Link>
       </div>
       <Drawer
@@ -45,7 +45,7 @@ export default function MobileNav() {
         <DrawerOverlay />
         <DrawerContent color="blue.500">
           <DrawerCloseButton />
-          <DrawerHeader>Edifying Landscaping</DrawerHeader>
+          <DrawerHeader>Edified Landscaping</DrawerHeader>
 
           <DrawerBody>
             <Link href={"/"} onClick={onClose}>
