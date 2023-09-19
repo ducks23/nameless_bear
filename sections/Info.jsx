@@ -31,9 +31,9 @@ export default function Info() {
       color: "bg-red-200",
 
       description_1:
-        "Customized landscape designs tailored to your preferences and property.",
+        "Design and construction of stunning hardscape elements like patios, walkways, and retaining walls.",
       description_2:
-        "Expert installation of plants, trees, hardscapes, and outdoor features to bring your vision to life.",
+        "Creation of inviting outdoor living spaces with features such as fire pits, seating areas, and pergolas.",
     },
     {
       title: "Tree and Shrub Care",
