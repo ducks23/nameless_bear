@@ -41,8 +41,8 @@ export default function SlideShow() {
   // buttons as the screen size changes
   const top = useBreakpointValue({ base: "90%", md: "50%" });
   const side = useBreakpointValue({ base: "30%", md: "40px" });
-  const title = "Austin Landscaping";
-  const text = "Irrigation & Landscaping Services Serving The Austin Area";
+  const title = "Edibly Landscaped";
+  const text = "Irrigation & Landscaping Work Serving The Austin Area";
 
   // This list contains all the data for carousels
   // This can be static or loaded from a server
