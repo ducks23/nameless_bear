@@ -27,7 +27,9 @@ export default function Navbar() {
             <Link href={"/about"}>
               <div className={`${p}`}>About</div>
             </Link>{" "}
-            <div className={`${p}`}>services</div>
+            <Link href={"/services"}>
+              <div className={`${p}`}>Services</div>
+            </Link>{" "}
             <Link href={"/contact"}>
               <div className={`${p}`}>Contact</div>
             </Link>
